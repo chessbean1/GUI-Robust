@@ -1,7 +1,39 @@
 # GUI-Robust: A Comprehensive Dataset for Testing GUI Agent Robustness in Real-World Anomalies
 
-## Model Interface Specification
-Each model should implement the following interface:
+<!-- PDF + GUI-Robust -->
+<span style="display:inline-block;background:#4d4d4d;color:white;padding:4px 8px;border-radius:4px;margin-right:2px;">PDF</span>
+<span style="display:inline-block;background:#e74c3c;color:white;padding:4px 8px;border-radius:4px;margin-right:12px;">GUI-Robust</span>
+
+<!-- Dataset + GUI-Robust -->
+<span style="display:inline-block;background:#4d90fe;color:white;padding:4px 8px;border-radius:4px;margin-right:2px;">Dataset</span>
+<span style="display:inline-block;background:#9acd32;color:white;padding:4px 8px;border-radius:4px;">GUI-Robust</span>
+
+
+## Evaluation Script
+
+Run the toolkit via:
+
+```bash
+python evaluation.py \
+  --model_name <YourModel> \
+  --eval_type step|task \
+  --task_type normal|abnormal \
+  --data_path <path_to_data_folder>
+```
+
+The evaluation script supports two modes:
+
+- `--eval_type` `step`: Evaluates per-step grounding accuracy (Action acc. and Coord. acc.)
+
+- `--eval_type` `task`: Evaluates full task execution (Action acc., Coord. acc., and Task Success)
+
+We provide the Qwen2.5-VL model as an example to run the evaluation script (Need to fill in your own API key).
+
+## Integrate Your Own Model
+
+### Model Interface Specification
+
+To integrate custom models into the evaluation, each model should implement the following interface:
 
 ```python
 class YourModel:
@@ -24,7 +56,8 @@ class YourModel:
 
 These two methods respectively handle single-step prediction and full-task multi-step prediction. The evaluation pipeline will automatically invoke these methods, compare predictions against ground truth, and report metrics such as action accuracy, coordinate accuracy, and task success rate.
 
-## Prediction Output Format 
+### Prediction Output Format 
+
 Each prediction should contain:
 - `Element coordinates` (x, y)
 - `Element type` (icon, text, box, none)
@@ -32,23 +65,7 @@ Each prediction should contain:
 
 For full-task predictions, return a list of such dictionaries (one per step).
 
-## Evaluation Script
-Run the toolkit via:
-```bash
-python evaluation.py \
-  --model_name <YourModel> \
-  --eval_type step|task \
-  --task_type normal|abnormal \
-  --data_path <path_to_data_folder>
-```
-
-The evaluation script supports two modes:
-
-- `--eval_type` `step`: Evaluates per-step grounding accuracy (Action acc. and Coord. acc.)
-
-- `--eval_type` `task`: Evaluates full task execution (Action acc., Coord. acc., and Task Success)
-
-## Prompt Templates
+### Prompt Templates
 
 A Chinese version template can be seen in ./model/prompt
 
