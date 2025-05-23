@@ -44,9 +44,9 @@ python evaluation.py \
 
 The evaluation script supports two modes:
 
-- `--eval\_type` `step`: Evaluates per-step grounding accuracy (Action acc. and Coord. acc.)
+- `--eval_type` `step`: Evaluates per-step grounding accuracy (Action acc. and Coord. acc.)
 
-- `--eval\_type` `task`: Evaluates full task execution (Action acc., Coord. acc., and Task Success)
+- `--eval_type` `task`: Evaluates full task execution (Action acc., Coord. acc., and Task Success)
 
 ## Prompt Templates
 
