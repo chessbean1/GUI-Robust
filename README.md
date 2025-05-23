@@ -26,9 +26,9 @@ These two methods respectively handle single-step prediction and full-task multi
 
 ## Prediction Output Format 
 Each prediction should contain:
-- Element coordinates (x, y)
-- Element type (icon, text, box, none)
-- Action type and content (click, input, get\_info, open, wait, human)
+- `Element coordinates` (x, y)
+- `Element type` (icon, text, box, none)
+- `Action type` and `content` (click, input, get\_info, open, wait, human)
 
 For full-task predictions, return a list of such dictionaries (one per step).
 
@@ -39,14 +39,14 @@ python evaluation.py \
   --model_name <YourModel> \
   --eval_type step|task \
   --task_type normal|abnormal \
-  --data_path \<path_to_data_folder\>
+  --data_path <path_to_data_folder>
 ```
 
 The evaluation script supports two modes:
 
-- --eval\_type step: Evaluates per-step grounding accuracy (Action acc. and Coord. acc.)
+- `--eval\_type` `step`: Evaluates per-step grounding accuracy (Action acc. and Coord. acc.)
 
-- --eval\_type task: Evaluates full task execution (Action acc., Coord. acc., and Task Success)
+- `--eval\_type` `task`: Evaluates full task execution (Action acc., Coord. acc., and Task Success)
 
 ## Prompt Templates
 
