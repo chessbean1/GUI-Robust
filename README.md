@@ -63,5 +63,4 @@ Please consider citing if you find our work useful:
     year={2025},
     url={https://openreview.net/forum?id=22gw3kITCd},
 }
-
 ```
