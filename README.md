@@ -1,12 +1,8 @@
 # GUI-Robust: A Comprehensive Dataset for Testing GUI Agent Robustness in Real-World Anomalies
 
-<!-- PDF + GUI-Robust -->
-<span style="display:inline-block;background:#4d4d4d;color:white;padding:4px 8px;border-radius:4px;margin-right:2px;">PDF</span>
-<span style="display:inline-block;background:#e74c3c;color:white;padding:4px 8px;border-radius:4px;margin-right:12px;">GUI-Robust</span>
+[![PDF GUI-Robust](https://img.shields.io/badge/PDF-GUI--Robust-red)](#)
+[![Dataset GUI-Robust](https://img.shields.io/badge/Dataset-GUI--Robust-brightgreen)](#)
 
-<!-- Dataset + GUI-Robust -->
-<span style="display:inline-block;background:#4d90fe;color:white;padding:4px 8px;border-radius:4px;margin-right:2px;">Dataset</span>
-<span style="display:inline-block;background:#9acd32;color:white;padding:4px 8px;border-radius:4px;">GUI-Robust</span>
 
 
 ## Evaluation Script
