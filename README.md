@@ -51,3 +51,17 @@ The evaluation script supports two modes:
 ## Prompt Templates
 
 A Chinese version template can be seen in ./model/prompt
+
+## Citation
+Please consider citing if you find our work useful:
+```
+@inproceedings{
+    yang2025guirobust,
+    title={GUI-Robust: A Comprehensive Dataset for Testing GUI Agent Robustness in Real-World Anomalies},
+    author={Jingqi Yang and Zhilong Song and Jiawei Chen and Mingli Song and Sheng Zhou and Linjun Sun and Xiaogang Ouyang and Chun Chen and Can Wang},
+    booktitle={NeurIPS Datasets and Benchmarks Track},
+    year={2025},
+    url={https://openreview.net/forum?id=22gw3kITCd},
+}
+
+```
