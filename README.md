@@ -3,7 +3,16 @@
 <!-- [![PDF GUI-Robust](https://img.shields.io/badge/PDF-GUI--Robust-red)](#) -->
 [![Dataset GUI-Robust](https://img.shields.io/badge/Dataset-GUI--Robust-brightgreen)](https://huggingface.co/datasets/kuangtie/GUI-Robust)
 
-[![Paper GUI-Robust](https://img.shields.io/badge/Paper-GUI--Robust-brightred)](https://arxiv.org/abs/2506.14477)
+[![Paper GUI-Robust](https://img.shields.io/badge/Paper-GUI--Robust-red)](https://arxiv.org/abs/2506.14477)
+
+<span>
+  <a href="https://huggingface.co/datasets/kuangtie/GUI-Robust">
+    <img src="https://img.shields.io/badge/Dataset-GUI--Robust-brightgreen" />
+  </a>
+  <a href="https://arxiv.org/abs/2506.14477">
+    <img src="https://img.shields.io/badge/Paper-GUI--Robust-red" />
+  </a>
+</span>
 
 **The complete dataset is available on https://huggingface.co/datasets/kuangtie/GUI-Robust.**
 
