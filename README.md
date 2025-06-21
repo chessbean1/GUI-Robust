@@ -3,7 +3,7 @@
 <!-- [![PDF GUI-Robust](https://img.shields.io/badge/PDF-GUI--Robust-red)](#) -->
 [![Dataset GUI-Robust](https://img.shields.io/badge/Dataset-GUI--Robust-brightgreen)](https://huggingface.co/datasets/kuangtie/GUI-Robust)
 
-**The complete dataset is available on https://huggingface.co/datasets/kuangtie/GUI-Robust.
+**The complete dataset is available on https://huggingface.co/datasets/kuangtie/GUI-Robust.**
 
 ## Evaluation Script
 
