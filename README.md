@@ -1,9 +1,9 @@
 # GUI-Robust: A Comprehensive Dataset for Testing GUI Agent Robustness in Real-World Anomalies
 
 <!-- [![PDF GUI-Robust](https://img.shields.io/badge/PDF-GUI--Robust-red)](#) -->
-[![Dataset GUI-Robust](https://img.shields.io/badge/Dataset-GUI--Robust-brightgreen)](https://huggingface.co/datasets/kuangtie/GUI-Robust)
+<!-- [![Dataset GUI-Robust](https://img.shields.io/badge/Dataset-GUI--Robust-brightgreen)](https://huggingface.co/datasets/kuangtie/GUI-Robust) -->
 
-[![Paper GUI-Robust](https://img.shields.io/badge/Paper-GUI--Robust-red)](https://arxiv.org/abs/2506.14477)
+<!-- [![Paper GUI-Robust](https://img.shields.io/badge/Paper-GUI--Robust-red)](https://arxiv.org/abs/2506.14477) -->
 
 <span>
   <a href="https://huggingface.co/datasets/kuangtie/GUI-Robust">
